@@ -61,7 +61,7 @@ const tree = new BinaryTree();
     tree.insert(13);
 
 tree.inOrderTraversal(tree.root, (value) => {
-//   console.log(value);
+  console.log(value);
 });
 
 
